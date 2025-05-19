@@ -1,9 +1,9 @@
 git repo:
 
-https://github.com/sergeybabann/spa_vite_vanilla.js_v.3.original.babann
+https://github.com/sergeybabann/spa_vite_vanilla.js_basics_of_algorithmic_problems-original.babann
 
 
 stop: 
 
-'01_sprint / 05_theme / 02_lesson - complete!'
+'1 video 14.21'
 
