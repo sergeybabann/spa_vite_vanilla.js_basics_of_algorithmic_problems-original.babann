@@ -1,0 +1,35 @@
+@use './base/_variables' as *;
+@use './base/_reset';
+@use './base/_mixins';
+@use './base/_typography';
+
+@use './components/_button.scss';
+
+@use './layout/_header.scss';
+@use './layout/_header2.scss';
+@use 'layout/_main.scss';
+@use './layout/_footer.scss';
+@use './layout/_sidebar2.scss';
+
+@use './fonts';
+
+// Глобальные стили
+body {
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-text-default;
+  background-color: $bg-dark-default;
+  color: $color-content-primary;
+  line-height: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul,
+ol {
+  padding: 0 50px 0 50px;
+  line-height: 1.5rem;
+}
+
+video {
+  margin: 50px 200px 0 200px;
+}

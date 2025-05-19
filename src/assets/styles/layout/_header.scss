@@ -1,0 +1,49 @@
+@use '../base/_variables' as *;
+
+.header__content {
+  background-color: $bg-dark-1;
+  padding: 20px;
+}
+
+.header__wrapper-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.header__title-1 {
+  font-size: $font-size-header-1;
+}
+
+.header__title-2 {
+  font-size: $font-size-header-2;
+}
+
+.header__title-3 {
+  font-size: $font-size-header-3;
+  margin-left: 20px;
+}
+
+.header__menu {
+  padding: 10px;
+
+  &-list {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+  }
+
+  &-item {
+    list-style: none;
+  }
+
+  &-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  &-link:hover {
+    color: gold;
+  }
+}
