@@ -46,11 +46,6 @@
   }
 }
 
-.header2__bread-crumbs {
-  display: flex;
-  gap: 20px;
-}
-
 .back-link {
   padding: 10px;
   background-color: $bg-gray-1;
@@ -134,7 +129,7 @@
   padding: $text-accent-padding;
   border: $border-light-mute;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 5px 0 5px;
   background-color: $bg-dark-accent;
 }
@@ -146,3 +141,9 @@
   background-color: $bg-dark-accent;
   padding: 1.5rem;
 }
+
+.block__margin-1 {
+  margin: 0 0 40px 0;
+}
+
+

@@ -8,10 +8,11 @@
 @use './layout/_header.scss';
 @use './layout/_header2.scss';
 @use 'layout/_main.scss';
-@use './layout/_footer.scss';
 @use './layout/_sidebar2.scss';
+@use './layout/_footer.scss';
 
 @use './fonts';
+@use './layout/tables';
 
 // Глобальные стили
 body {
@@ -27,7 +28,7 @@ body {
 ul,
 ol {
   padding: 0 50px 0 50px;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
 }
 
 p {

@@ -1,0 +1,18 @@
+@use '../base/_variables' as *;
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  margin: 20px 0 20px 0;
+}
+
+th,
+td {
+  border: 1px solid gold;
+  padding: 10px;
+  text-align: center;
+}
+
+// th {
+//   background-color: #f0f0f0;
+//   color: $text-color;
