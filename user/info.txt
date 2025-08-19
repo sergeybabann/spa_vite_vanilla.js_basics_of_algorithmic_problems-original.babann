@@ -3,7 +3,7 @@ git repo:
 https://github.com/sergeybabann/spa_vite_vanilla.js_basics_of_algorithmic_problems-original.babann
 
 
-stop: 
+video stop: 
 
-'1 video 14.21'
+'1 video 30.37'
 
