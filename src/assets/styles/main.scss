@@ -39,3 +39,31 @@ p {
 video {
   margin: 50px 200px 0 200px;
 }
+
+//*----- Плавная прокрутка якорей -----*//
+html {
+  scroll-behavior: smooth;
+}
+
+//* ---- Отступ для якорей -----*//
+:target {
+  scroll-margin-top: 220px; /* Отступ сверху */
+  display: block;
+}
+
+:root {
+  --header-height: 150px;
+}
+
+//* настройки для отступов header и main *//
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: var(--header-height);
+  z-index: 1000;
+}
+
+main {
+  margin-top: var(--header-height);
+}
