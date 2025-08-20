@@ -4,7 +4,7 @@ export default async function Lesson_01() {
 
   try {
     const response = await fetch(
-      '/public/pages/lecture/01_theme/01_lesson/01_lesson.html'
+      '/public/pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/01_lesson/01_lesson.html'
     )
     const htmlContent = await response.text()
     lesson.innerHTML = htmlContent

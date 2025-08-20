@@ -1,15 +1,25 @@
 const routes = {
   '/': () => import('../pages/home/Home.js'),
 
-  /*-------------------- theory --------------------*/
-  '/lecture': () => import('../pages/lecture/lecture.js'),
+  // /*-------------------- algorithms_and_data_structures --------------------*/
+  // '/algorithms_and_data_structures': () =>
+  //   import(
+  //     '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/main_page.js'
+  //   ),
 
-  /*---------- 01 THEME ----------*/
-  '/lecture/theme_01': () => import('../pages/lecture/lecture__theme_01.js'),
+  /*---------- basics of solving algorithmic problems ----------*/
+  '/algorithms_and_data_structures/basics_of_solving_algorithmic_problems':
+    () =>
+      import(
+        '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/main_page.js'
+      ),
 
   /*---------- LESSONS ----------*/
-  '/lecture/theme_01/lesson_01': () =>
-    import('../pages/lecture/01_theme/01_lesson.js'),
+  '/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/01_lesson':
+    () =>
+      import(
+        '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/01_lesson.js'
+      ),
 }
 
 const loadRoute = async (path) => {

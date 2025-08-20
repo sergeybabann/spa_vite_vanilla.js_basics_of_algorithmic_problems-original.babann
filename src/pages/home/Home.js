@@ -17,7 +17,7 @@ export default function Home() {
                     <a class="header__menu-link" href="/">Home</a>
                 </li>
                 <li class="header__menu-item">
-                    <a class="header__menu-link" href="/lecture">Лекция</a>
+                    <a class="header__menu-link" href="/algorithms_and_data_structures">Лекция</a>
                 </li>              
                 </ul>
             </div><!--header__menu-->
@@ -39,7 +39,8 @@ export default function Home() {
         <!---------- Алгоритмы и структуры данных ---------->
         <h3 id="algorithms_and_data_structures" class="main__title-1">Алгоритмы и структуры данных</h3>
         <ul class="main__list-1">
-            <li class="main__list-1-item"><a href="/lecture/theme_01" class="main__link-default">
+            <li class="main__list-1-item"><a href="
+            /algorithms_and_data_structures/basics_of_solving_algorithmic_problems" class="main__link-default">
             Основы решения алгоритмических задач. Центр "Специалист".
             </a></li> 
         </ul>
