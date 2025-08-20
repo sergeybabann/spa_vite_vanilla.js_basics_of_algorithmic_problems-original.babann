@@ -14,6 +14,14 @@ const routes = {
       import(
         '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/01_lesson.js'
       ),
+
+  /*-------------------- PROGRAMMING BASICS --------------------*/
+  /*-- Programming basics --*/
+  '/programming_basics': () =>
+    import('../pages/programming_basics/main_page.js'),
+  /*-- basics of solving algorithmic problems - 01_Lesson --*/
+  '/programming_basics/01_lesson': () =>
+    import('../pages/programming_basics/01_lesson.js'),
 }
 
 const loadRoute = async (path) => {

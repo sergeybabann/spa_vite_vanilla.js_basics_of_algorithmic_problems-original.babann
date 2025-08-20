@@ -31,8 +31,8 @@ export default function Home() {
         <!---------- Основы программирования ---------->
         <h3 id="programming_basics" class="main__title-1">Основы программирования</h3>
         <ul class="main__list-1">
-            <li class="main__list-1-item"><a href="/lecture/theme_01" class="main__link-default">
-            Основы программирования. Центр "Специалист".
+            <li class="main__list-1-item"><a href="/programming_basics" class="main__link-default">
+            Основы программирования. Учебный центр "Специалист".
             </a></li> 
         </ul>
 
@@ -41,7 +41,7 @@ export default function Home() {
         <ul class="main__list-1">
             <li class="main__list-1-item"><a href="
             /algorithms_and_data_structures/basics_of_solving_algorithmic_problems" class="main__link-default">
-            Основы решения алгоритмических задач. Центр "Специалист".
+            Основы решения алгоритмических задач. Учебный центр "Специалист".
             </a></li> 
         </ul>
 
@@ -49,7 +49,7 @@ export default function Home() {
          <h3 class="main__title-1">JAVA</h3>
          <ul class="main__list-1">
             <li class="main__list-1-item"><a href="/lecture/theme_01" class="main__link-default">
-            Практикум программирования. Центр "Специалист".
+            Практикум программирования. Учебный центр "Специалист".
             </a></li> 
         </ul>
 
