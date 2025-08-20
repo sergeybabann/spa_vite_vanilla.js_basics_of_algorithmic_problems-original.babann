@@ -1,20 +1,14 @@
 const routes = {
   '/': () => import('../pages/home/Home.js'),
 
-  // /*-------------------- algorithms_and_data_structures --------------------*/
-  // '/algorithms_and_data_structures': () =>
-  //   import(
-  //     '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/main_page.js'
-  //   ),
-
-  /*---------- basics of solving algorithmic problems ----------*/
+  /*-------------------- ALGORITHMS AND DATA STRUCTURES --------------------*/
+  /*-- Basics of solving algorithmic problems --*/
   '/algorithms_and_data_structures/basics_of_solving_algorithmic_problems':
     () =>
       import(
         '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/main_page.js'
       ),
-
-  /*---------- LESSONS ----------*/
+  /*-- basics of solving algorithmic problems - 01_Lesson --*/
   '/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/01_lesson':
     () =>
       import(
