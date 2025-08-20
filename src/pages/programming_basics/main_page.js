@@ -25,7 +25,44 @@ export default function lecture_Theme_01() {
         <ul class="main__list-1">
         <li class="main__list-1-item">
             <a class="main__link-default" href="/programming_basics/01_lesson">
-            1. Урок - Этапы коммерческой разработки.</a>
+            1. Урок - Этапы коммерческой разработки.
+            </a>
+        </li>
+
+        <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/02_lesson">
+            2. Урок - Обработка информации.
+            </a>
+        </li>
+
+        <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/03_lesson">
+            3. Урок - Процессоры.
+            </a>
+        </li>
+
+         <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/04_lesson">
+            4. Урок - Параллельное программирование. Архитектура. Программное управление.
+            </a>
+        </li>
+
+        <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/05_lesson">
+            5. Урок - Функции. Программа. Выполнение.
+            </a>
+        </li>
+
+        <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/06_lesson">
+            6. Урок - Код (условное деление)
+            </a>
+        </li>
+
+        <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/07_lesson">
+            7. Урок - Память. Программирование. Данные. 
+            </a>
         </li>
 
         </ul>
