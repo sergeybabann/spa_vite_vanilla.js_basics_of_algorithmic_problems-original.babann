@@ -46,6 +46,22 @@ const routes = {
   /*-- basics of solving algorithmic problems - 07_Lesson --*/
   '/programming_basics/07_lesson': () =>
     import('../pages/programming_basics/07_lesson.js'),
+
+  /*-- basics of solving algorithmic problems - 08_Lesson --*/
+  '/programming_basics/08_lesson': () =>
+    import('../pages/programming_basics/08_lesson.js'),
+
+  /*-- basics of solving algorithmic problems - 09_Lesson --*/
+  '/programming_basics/09_lesson': () =>
+    import('../pages/programming_basics/09_lesson.js'),
+
+  /*-- basics of solving algorithmic problems - 10_Lesson --*/
+  '/programming_basics/10_lesson': () =>
+    import('../pages/programming_basics/10_lesson.js'),
+
+  /*-- basics of solving algorithmic problems - 11_Lesson --*/
+  '/programming_basics/11_lesson': () =>
+    import('../pages/programming_basics/11_lesson.js'),
 }
 
 const loadRoute = async (path) => {
