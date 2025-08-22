@@ -22,21 +22,30 @@
   margin-top: 30px;
   margin-bottom: 40px;
   line-height: 2.5rem;
+  color: $color-title;
 }
 
 .main__title-2 {
   font-size: $font-size-title-main-2;
   font-weight: $font-weight-3;
+  color: $color-title;
+  margin-top: 50px;
 }
 
 .main__title-3 {
   font-size: $font-size-title-main-3;
   font-weight: $font-weight-3;
+  color: $color-title;
+  margin-top: 50px;
 }
 
 .main__span-title-1 {
   font-size: $font-size-span-title-main-1;
   font-weight: 400;
+}
+
+.main__span-accent_text-1 {
+  color: $color-span-1;
 }
 
 .main__link-default {
@@ -145,4 +154,31 @@
 
 .block__margin-1 {
   margin: 0 0 40px 0;
+}
+
+.column {
+  display: flex;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__column-1 {
+  display: flex;
+  flex-direction: column;
+  // background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main__column-1:not(:first-child) {
+  border-left: 1px rgba(255, 215, 0, 0.5) solid;
+}
+
+.main__column-1:not(:first-child) {
+  padding-left: 40px;
+}
+
+.main__column-1:not(:last-child) {
+  padding-right: 40px;
 }
