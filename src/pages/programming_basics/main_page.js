@@ -24,6 +24,13 @@ export default function lecture_Theme_01() {
         <!----- Lessons ----->
         <ul class="main__list-1">
 
+        <!----- INTRODUCTION ----->
+        <li class="main__list-1-item">
+            <a class="main__link-default" href="/programming_basics/introduction">
+            Введение
+            </a>
+        </li>
+
         <!----- 01 LESSON ----->
         <li class="main__list-1-item">
             <a class="main__link-default" href="/programming_basics/01_lesson">

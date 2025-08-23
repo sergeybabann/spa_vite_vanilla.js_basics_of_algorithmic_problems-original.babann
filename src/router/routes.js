@@ -19,7 +19,12 @@ const routes = {
   /*-- Programming basics --*/
   '/programming_basics': () =>
     import('../pages/programming_basics/main_page.js'),
-  /*-- basics of solving algorithmic problems - 01_Lesson --*/
+
+  /*-- programming basics - introduction --*/
+  '/programming_basics/introduction': () =>
+    import('../pages/programming_basics/introduction.js'),
+
+  /*-- programming basics - 01_Lesson --*/
   '/programming_basics/01_lesson': () =>
     import('../pages/programming_basics/01_lesson.js'),
 

@@ -16,9 +16,7 @@ export default function Home() {
                 <li class="header__menu-item">
                     <a class="header__menu-link" href="/">Home</a>
                 </li>
-                <li class="header__menu-item">
-                    <a class="header__menu-link" href="/algorithms_and_data_structures">Лекция</a>
-                </li>              
+                              
                 </ul>
             </div><!--header__menu-->
             </div><!--header__content-->
