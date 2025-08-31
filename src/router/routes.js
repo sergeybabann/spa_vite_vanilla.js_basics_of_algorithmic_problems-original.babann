@@ -15,58 +15,58 @@ const routes = {
         '../pages/algorithms_and_data_structures/basics_of_solving_algorithmic_problems/01_lesson.js'
       ),
 
-  /*-------------------- PROGRAMMING BASICS --------------------*/
+  /*-------------------- Basic of programming and databases --------------------*/
   /*-- Programming basics --*/
-  '/programming_basics': () =>
-    import('../pages/programming_basics/main_page.js'),
+  '/basic_of_programming_and_databases': () =>
+    import('../pages/basic_of_programming_and_databases/main_page.js'),
 
   /*-- programming basics - introduction --*/
-  '/programming_basics/introduction': () =>
-    import('../pages/programming_basics/introduction.js'),
+  '/basic_of_programming_and_databases/introduction': () =>
+    import('../pages/basic_of_programming_and_databases/introduction.js'),
 
   /*-- programming basics - 01_Lesson --*/
-  '/programming_basics/01_lesson': () =>
-    import('../pages/programming_basics/01_lesson.js'),
+  '/basic_of_programming_and_databases/01_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/01_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 02_Lesson --*/
-  '/programming_basics/02_lesson': () =>
-    import('../pages/programming_basics/02_lesson.js'),
+  '/basic_of_programming_and_databases/02_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/02_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 03_Lesson --*/
-  '/programming_basics/03_lesson': () =>
-    import('../pages/programming_basics/03_lesson.js'),
+  '/basic_of_programming_and_databases/03_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/03_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 04_Lesson --*/
-  '/programming_basics/04_lesson': () =>
-    import('../pages/programming_basics/04_lesson.js'),
+  '/basic_of_programming_and_databases/04_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/04_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 05_Lesson --*/
-  '/programming_basics/05_lesson': () =>
-    import('../pages/programming_basics/05_lesson.js'),
+  '/basic_of_programming_and_databases/05_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/05_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 06_Lesson --*/
-  '/programming_basics/06_lesson': () =>
-    import('../pages/programming_basics/06_lesson.js'),
+  '/basic_of_programming_and_databases/06_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/06_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 07_Lesson --*/
-  '/programming_basics/07_lesson': () =>
-    import('../pages/programming_basics/07_lesson.js'),
+  '/basic_of_programming_and_databases/07_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/07_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 08_Lesson --*/
-  '/programming_basics/08_lesson': () =>
-    import('../pages/programming_basics/08_lesson.js'),
+  '/basic_of_programming_and_databases/08_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/08_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 09_Lesson --*/
-  '/programming_basics/09_lesson': () =>
-    import('../pages/programming_basics/09_lesson.js'),
+  '/basic_of_programming_and_databases/09_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/09_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 10_Lesson --*/
-  '/programming_basics/10_lesson': () =>
-    import('../pages/programming_basics/10_lesson.js'),
+  '/basic_of_programming_and_databases/10_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/10_lesson.js'),
 
   /*-- basics of solving algorithmic problems - 11_Lesson --*/
-  '/programming_basics/11_lesson': () =>
-    import('../pages/programming_basics/11_lesson.js'),
+  '/basic_of_programming_and_databases/11_lesson': () =>
+    import('../pages/basic_of_programming_and_databases/11_lesson.js'),
 }
 
 const loadRoute = async (path) => {

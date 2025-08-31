@@ -26,11 +26,11 @@ export default function Home() {
             <!---------- Main Content ---------->
             <main>
     <div class="main">
-        <!---------- Основы программирования ---------->
-        <h3 id="programming_basics" class="main__title-1">Основы программирования</h3>
+        <!---------- Основы программирования и баз данных---------->
+        <h3 id="programming_basics" class="main__title-1">Основы программирования и баз данных</h3>
         <ul class="main__list-1">
-            <li class="main__list-1-item"><a href="/programming_basics" class="main__link-default">
-            Основы программирования. Учебный центр "Специалист".
+            <li class="main__list-1-item"><a href="/basic_of_programming_and_databases" class="main__link-default">
+            Основы программирования и баз данных. Учебный центр "Специалист".
             </a></li> 
         </ul>
 

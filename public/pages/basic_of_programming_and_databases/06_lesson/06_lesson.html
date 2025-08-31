@@ -1,0 +1,182 @@
+<!----- Header content ----->
+<div class="header2__content">
+    <!----- HEADER2 WRAPPER-1 ----->
+    <div class="header2__wrapper-1">
+        <!----- Bread Crumbs ----->
+        <div class="header2__bread-crumbs">
+            <a href="/" class="back-link main__link-default">Home</a>
+            <a href="/basic_of_programming_and_databases" class="back-link main__link-default">Основы
+                программирования и баз данных</a>
+        </div><!--bread-crumbs-->
+    </div><!--header__wrapper-1-->
+</div><!--header content -->
+
+<!----- MAIN ----->
+<div class="margin__main">
+    <div class="main">
+        <div class="main__wrapper-1">
+            <h1 class="main__title-1">Урок 6: Код (условное деление)</h1>
+
+            <h class="main__title-3">Из чего состоит программный код</h>
+
+            <p>
+                Операторы – базовые элементы языка программирования. Управление ходом выполнения программы<br>
+                <span class="text__accent-padding">if-then, for, goto</span>
+            </p>
+
+            <p>
+                Операции – ключевые слова и символы обработки данных
+                <span class="text__accent-padding">+</span>
+                <span class="text__accent-padding">-</span>
+                <span class="text__accent-padding">></span>
+                <span class="text__accent-padding">!=</span>
+                <span class="text__accent-padding">xor</span>
+            </p>
+
+            <p>
+                <span class="text__accent-padding">x = y + 7</span><br>
+                Это не оператор, это конкретная операция. Здесь ничего не проверятся, здесь нет цикла, нет изменения
+                порядка команд. Это арифметическая операция.<br>
+                Здесь 2 операции:
+            <ul>
+                <li>1) сложение</li>
+                <li>2) присваивание</li>
+            </ul>
+            Это выражение, то есть несколько раз.
+            </p>
+
+            <p>
+                <span class="text__accent-padding">x</span>
+                <span class="text__accent-padding">y</span>
+                <span class="text__accent-padding">7</span>
+                - это операнды, то с чем мы работаем.
+            </p>
+
+            <p>
+                Видов операторов всего лишь 3, и они в точности совпадают с алгоритмами:
+
+            <ol>
+                <li>Есть операторы, которые позволяют вам менять последовательность. Например – перейди на 3 шаг</li>
+                <li>Есть операторы выбора. Если
+                    <span class="text__accent-padding">а = 5</span> тогда сделай то-то, иначе сделай другое.
+                </li>
+                <li>Есть операторы цикла.</li>
+            </ol>
+            </p>
+
+            <p>
+                То есть оператор это то, что говорит в какой последовательности сколько раз делать те или иные команды в
+                нашей программе. Я могу менять порядок выполнения команд.
+            </p>
+
+            <p>
+                Выражения – последовательность операций над заданными данными
+            </p>
+
+            <p>
+                Функции, процедуры, подпрограммы – блок содержащий операторы, операции, выражения
+                (внутри программы, снаружи программы)
+            </p>
+
+            <h class="main__title-3">Операторы</h>
+
+            <p>
+                Всего лишь 3, по типу алгоритмов.
+            </p>
+
+            <p>
+                Последовательность исполнения
+                <span class="text__accent-padding">goto</span>
+                (иди на)
+            </p>
+
+            <p>
+                Например:
+                Есть какая-то последовательность команд, а мне нужно пропустить 5 и 6 команды и попасть сразу
+                на 7-ую, возможно потом попасть назад на какую-то. То есть
+                <span class="text__accent-padding">goto</span> говорит перейди на такую-то
+                команду.
+                Но в современном программировании, если на собебеседование поставят задачу и вы напишите
+                <span class="text__accent-padding">goto</span>,
+                скрорее всего вы провалите собеседование. Такая команда есть, но использовать ее не нужно.
+                Потому, что она делает код очень запутанным.
+            </p>
+
+            <p>
+                Ветвление или выбор
+                <span class="text__accent-padding">if-then-else</span>
+                <span class="text__accent-padding">switch-case</span>
+            </p>
+
+            <p>
+                Циклы
+                <span class="text__accent-padding">for</span>
+                <span class="text__accent-padding">while</span>
+                <span class="text__accent-padding">do</span>
+            </p>
+
+            <h class="main__title-3">Операции</h>
+
+            <ul>
+                <li>Присваивание <span class="text__accent-padding">=</span></li>
+                <li>Арифметические
+                    <span class="text__accent-padding">+</span>
+                    <span class="text__accent-padding">-</span>
+                    <span class="text__accent-padding">*</span>
+                    <span class="text__accent-padding">/</span>
+                    <span class="text__accent-padding">^</span>
+                    <span class="text__accent-padding">++</span>
+                    <span class="text__accent-padding">--</span>
+                </li>
+
+                <li>Битовые
+                    <span class="text__accent-padding">&</span>
+                    <span class="text__accent-padding">|</span>
+                    <span class="text__accent-padding">~</span>
+                    <span class="text__accent-padding">&lt;&lt;</span>
+                    <span class="text__accent-padding">&gt;&gt;</span>
+                </li>
+
+                <li>Иные static_cast
+                    <span class="text__accent-padding">&lt;</span>
+                    <span class="text__accent-padding">&gt;</span>
+                    <span class="text__accent-padding">()</span>
+                </li>
+            </ul>
+
+            <h class="main__title-3">Операции. Синтаксис.</h>
+
+            <p>Синтаксис:</p>
+
+            <ul>
+                <li>Префиксные<span class="text__accent-padding">++a</span></li>
+                <li>Постфиксные<span class="text__accent-padding">a++</span></li>
+                <li>Инфиксные<span class="text__accent-padding">a+b</span></li>
+            </ul>
+
+            <p>Тип:</p>
+
+            <ul>
+                <li>Унарные<span class="text__accent-padding">-a</span>(у операции 1 операнд)</li>
+                <li>Бинарные<span class="text__accent-padding">a+b</span>(у операции 2 операнда)</li>
+                <li>Тернарные<span class="text__accent-padding">c?a:b</span>(если
+                    <span class="text__accent-padding">c</span>истинно, тогда
+                    <span class="text__accent-padding">a</span>, иначе
+                    <span class="text__accent-padding">b</span>
+                </li>
+            </ul>
+
+            <p>
+                Операция инкремент:
+                <span class="text__accent-padding">a++</span> увеличение переменной на единицу
+            </p>
+
+            <p>
+                Операция декремент:
+                <span class="text__accent-padding">a--</span> уменьшение переменной на единицу
+            </p>
+
+
+        </div><!--main__wrapper-1-->
+    </div><!--main-->
+</div><!--margin__main-->
